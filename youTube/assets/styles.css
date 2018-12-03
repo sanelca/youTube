@@ -1,0 +1,56 @@
+li {
+    list-style: none;
+    float: left;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+
+* {box-sizing: border-box;}
+
+/* Style the input container */
+.input-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/* Style the form icons */
+.icon {
+    padding: 10px;
+    background: #f8f8f8;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+}
+
+/* Style the input fields */
+.input-field {
+    width: 1000%;
+    padding: 10px;
+    outline: none;
+}
+
+.input-field:focus {
+    border: 1px solid #f8f8f8;
+}
+
+/* Set a style for the submit button */
+.btn {
+    background-color: #f8f8f8;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.nav-icon{
+    padding: 3%;
+    margin: 12px;
+}
+
