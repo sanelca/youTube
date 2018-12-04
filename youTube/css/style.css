@@ -53,43 +53,69 @@
 
 }
 .youTubeIframe .descriptionPart {
-
+    float: left;
+    width: 100%;
+    margin-top: 20px;
 }
 .youTubeIframe .descriptionPart .nameAndThumbnail {
-
+    float: left;
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #ececec;
 }
 .youTubeIframe .descriptionPart .nameAndThumbnail .thumbNailsImage {
-
+    float: left;
+    width: 10%;
 }
 .youTubeIframe .descriptionPart .nameAndThumbnail .thumbNailsImage img {
-
+    width: 60px;
+    border-radius: 40px;
 }
 .youTubeIframe .descriptionPart .nameAndThumbnail .contentPartOfDescription {
-
+    float: left;
+    width: 90%;
 }
 .youTubeIframe .descriptionPart .nameAndThumbnail .contentPartOfDescription p {
-
+    float: left;
+    width: 35%;
+    font-weight: bold;
+    padding-top: 15px;
 }
 .youTubeIframe .descriptionPart .nameAndThumbnail .contentPartOfDescription p span {
-
+    float: left;
+    width: 100%;
+    font-weight: normal;
+    font-size: 13px;
 }
 .youTubeIframe .descriptionPart .nameAndThumbnail .subscribeButton {
-
+    float: right;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
 }
 .youTubeIframe .descriptionPart .nameAndThumbnail .descriptionText {
-
+    float: left;
 }
 .youTubeIframe .descriptionPart .nameAndThumbnail .descriptionText .showMoreOrLess {
-
+    display: none;
 }
 .youTubeIframe .descriptionPart .nameAndThumbnail .categories {
-
+    float: left;
+    width: 100%;
+    margin-top: 10px;
 }
 .youTubeIframe .descriptionPart .nameAndThumbnail .categories span {
     
 }
 .youTubeIframe .descriptionPart .nameAndThumbnail .showLessOrMoreButton {
-
+    float: left;
+    margin-top: 10px;
+    font-size: 15px;
+    color: grey;
+    font-weight: bold;
+    cursor: pointer;
 }
 .youTubeIframe .commentsPart {
 
