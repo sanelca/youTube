@@ -1,13 +1,223 @@
 .youTubeIframe {
-
+    float: left;
+    width: 58%;
+    padding-left: 2%;
 }
 .youTubeIframe .iFramePart {
-    
+     
 }
 .youTubeIframe h3 {
-
+    float: left;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 13px;
 }
 .youTubeIframe .mainLikeDislikeButton {
+    float: left;
+    width: 100%;
+    padding-bottom: 5px;
+    border-bottom: solid 1px #ececec;
+}
+.youTubeIframe .mainLikeDislikeButton .countViews {
+    float: left;
+    color: #afa3a3;
+    font-size: 16px;
+}
+.youTubeIframe .mainLikeDislikeButton .likeDislikeButtons {
+    float: right;
+}
+
+.youTubeIframe .mainLikeDislikeButton .likeDislikeShare {
+    float: left;
+    border-bottom: solid 2px grey;
+    cursor: pointer;
+    padding-right: 10px;
+}
+.youTubeIframe .mainLikeDislikeButton .likeDislikeShare img {
+    width: 30px;
+    padding-bottom: 2px;
+}
+.youTubeIframe .mainLikeDislikeButton .likeDislikeShare span {
+
+}
+.youTubeIframe .shareSaveButton {
+    float: right;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.youTubeIframe .shareSaveButton img {
+    width: 26px;
+}
+.youTubeIframe .shareSaveButton span {
+
+}
+.youTubeIframe .descriptionPart {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+.youTubeIframe .descriptionPart .nameAndThumbnail {
+    float: left;
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #ececec;
+}
+.youTubeIframe .descriptionPart .nameAndThumbnail .thumbNailsImage {
+    float: left;
+    width: 10%;
+}
+.youTubeIframe .descriptionPart .nameAndThumbnail .thumbNailsImage img {
+    width: 60px;
+    border-radius: 40px;
+}
+.youTubeIframe .descriptionPart .nameAndThumbnail .contentPartOfDescription {
+    float: left;
+    width: 90%;
+}
+.youTubeIframe .descriptionPart .nameAndThumbnail .contentPartOfDescription p {
+    float: left;
+    width: 35%;
+    font-weight: bold;
+    padding-top: 15px;
+}
+.youTubeIframe .descriptionPart .nameAndThumbnail .contentPartOfDescription p span {
+    float: left;
+    width: 100%;
+    font-weight: normal;
+    font-size: 13px;
+}
+.youTubeIframe .descriptionPart .nameAndThumbnail .subscribeButton {
+    float: right;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.youTubeIframe .descriptionPart .nameAndThumbnail .descriptionText {
+    float: left;
+}
+.youTubeIframe .descriptionPart .nameAndThumbnail .descriptionText .showMoreOrLess {
+    display: none;
+}
+.youTubeIframe .descriptionPart .nameAndThumbnail .categories {
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+}
+.youTubeIframe .descriptionPart .nameAndThumbnail .categories span {
+    
+}
+.youTubeIframe .descriptionPart .nameAndThumbnail .showLessOrMoreButton {
+    float: left;
+    margin-top: 10px;
+    font-size: 15px;
+    color: grey;
+    font-weight: bold;
+    cursor: pointer;
+}
+.youTubeIframe .commentsPart {
+    float: left;
+    width: 100%;
+    margin-top: 15px;
+}
+.youTubeIframe .commentsPart .counterSortButtons {
+    float: left;
+    width: 100%;    
+}
+.youTubeIframe .commentsPart .counterSortButtons p {
+    float: left;
+    margin-right: 15px;    
+}
+.youTubeIframe .commentsPart .counterSortButtons .sortingList {
+    float: left;
+    cursor: pointer;    
+}
+.youTubeIframe .commentsPart .counterSortButtons .sortingList img {
+    width: 24px;
+}
+.youTubeIframe .commentsPart .putComment {
+    float: left;
+    width: 100%;    
+}
+.youTubeIframe .commentsPart .putComment .thumbnail {
+    float: left;
+}
+.youTubeIframe .commentsPart .putComment .thumbnail img {
+    width: 60px;
+    border-radius: 44px;    
+}
+.youTubeIframe .commentsPart .putComment input {
+    border: none;
+    margin-left: 10px;
+    height: 60px;
+    width: 85%;
+    padding-left: 10px;    
+}
+.youTubeIframe .commentsPart .commentList {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 120px;
+}
+.youTubeIframe .commentsPart .commentList .comment {
+
+}
+.youTubeIframe .commentsPart .commentList .comment .thumbnail {
+    float: left;
+    width: 10%;
+}
+.youTubeIframe .commentsPart .commentList .comment .thumbnail img {
+
+    width: 60px;
+    border-radius: 42px;
+}
+.youTubeIframe .commentsPart .commentList .comment .contentOfCommment{
+    float: left;
+    width: 90%;
+}
+.youTubeIframe .commentsPart .commentList .comment .contentOfCommment .authorName {
+
+}
+.youTubeIframe .commentsPart .commentList .comment .contentOfCommment .authorName h3 {
+    margin: 0;
+    margin-top: 19px;
+    font-size: 20px;
+}
+.youTubeIframe .commentsPart .commentList .comment .contentOfCommment .authorName h3 span {
+    font-size: 15px;
+    color: #b3b1b1;
+    font-weight: normal;
+    margin-left: 10px;
+}
+.youTubeIframe .commentsPart .commentList .comment .contentOfCommment p {
+    float: left;
+    width: 100%;
+    margin-top: 19px;
+    margin-bottom: 5px;
+}
+.youTubeIframe .commentsPart .commentList .comment .contentOfCommment .likeDislikeInComments {
+    float: left;
+    width: 100%;
+}
+.youTubeIframe .commentsPart .commentList .comment .contentOfCommment .likeDislikeInComments .likeDislike {
+     float: left;
+    margin-right: 10px;   
+}
+.youTubeIframe .commentsPart .commentList .comment .contentOfCommment .likeDislikeInComments .likeDislike .Icone {
+    
+}
+.youTubeIframe .commentsPart .commentList .comment .contentOfCommment .likeDislikeInComments .likeDislike .Icone img{
+    width: 30px; 
+}
+.youTubeIframe .commentsPart .commentList .comment .contentOfCommment .likeDislikeInComments .likeDislike .likeDislikeCounter {
+    margin-top: 4px;
+    float: right;
+    margin-left: 4px;
+    color: #969696;   
+}
+.youTubeIframe .commentsPart .commentList .comment .replyButton {
 
 }
 
