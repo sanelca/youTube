@@ -1,12 +1,165 @@
 .youTubeIframe {
-
+    float: left;
+    width: 58%;
+    padding-left: 2%;
 }
 .youTubeIframe .iFramePart {
     
 }
 .youTubeIframe h3 {
-
+    float: left;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 13px;
 }
 .youTubeIframe .mainLikeDislikeButton {
+    float: left;
+    width: 100%;
+    padding-bottom: 5px;
+    border-bottom: solid 1px #ececec;
+}
+.youTubeIframe .mainLikeDislikeButton .countViews {
+    float: left;
+    color: #afa3a3;
+    font-size: 16px;
+}
+.youTubeIframe .mainLikeDislikeButton .likeDislikeButtons {
+    float: right;
+}
+
+.youTubeIframe .mainLikeDislikeButton .likeDislikeShare {
+    float: left;
+    border-bottom: solid 2px grey;
+    cursor: pointer;
+    padding-right: 10px;
+}
+.youTubeIframe .mainLikeDislikeButton .likeDislikeShare img {
+    width: 30px;
+    padding-bottom: 2px;
+}
+.youTubeIframe .mainLikeDislikeButton .likeDislikeShare span {
+
+}
+.youTubeIframe .shareSaveButton {
+    float: right;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.youTubeIframe .shareSaveButton img {
+    width: 26px;
+}
+.youTubeIframe .shareSaveButton span {
+
+}
+.youTubeIframe .descriptionPart {
+
+}
+.youTubeIframe .descriptionPart .nameAndThumbnail {
+
+}
+.youTubeIframe .descriptionPart .nameAndThumbnail .thumbNailsImage {
+
+}
+.youTubeIframe .descriptionPart .nameAndThumbnail .thumbNailsImage img {
+
+}
+.youTubeIframe .descriptionPart .nameAndThumbnail .contentPartOfDescription {
+
+}
+.youTubeIframe .descriptionPart .nameAndThumbnail .contentPartOfDescription p {
+
+}
+.youTubeIframe .descriptionPart .nameAndThumbnail .contentPartOfDescription p span {
+
+}
+.youTubeIframe .descriptionPart .nameAndThumbnail .subscribeButton {
+
+}
+.youTubeIframe .descriptionPart .nameAndThumbnail .descriptionText {
+
+}
+.youTubeIframe .descriptionPart .nameAndThumbnail .descriptionText .showMoreOrLess {
+
+}
+.youTubeIframe .descriptionPart .nameAndThumbnail .categories {
+
+}
+.youTubeIframe .descriptionPart .nameAndThumbnail .categories span {
+    
+}
+.youTubeIframe .descriptionPart .nameAndThumbnail .showLessOrMoreButton {
+
+}
+.youTubeIframe .commentsPart {
+
+}
+.youTubeIframe .commentsPart .counterSortButtons {
+    
+}
+.youTubeIframe .commentsPart .counterSortButtons p {
+    
+}
+.youTubeIframe .commentsPart .counterSortButtons .sortingList {
+    
+}
+.youTubeIframe .commentsPart .counterSortButtons .sortingList img {
+    
+}
+.youTubeIframe .commentsPart .putComment {
+    
+}
+.youTubeIframe .commentsPart .putComment .thumbnail {
+    
+}
+.youTubeIframe .commentsPart .putComment .thumbnail img {
+    
+}
+.youTubeIframe .commentsPart .putComment input {
+    
+}
+.youTubeIframe .commentsPart .commentList {
+
+}
+.youTubeIframe .commentsPart .commentList .comment {
+
+}
+.youTubeIframe .commentsPart .commentList .comment .thumbnail {
+
+}
+.youTubeIframe .commentsPart .commentList .comment .thumbnail img {
+
+}
+.youTubeIframe .commentsPart .commentList .comment .contentOfCommment{
+
+}
+.youTubeIframe .commentsPart .commentList .comment .contentOfCommment .authorName {
+
+}
+.youTubeIframe .commentsPart .commentList .comment .contentOfCommment .authorName h3 {
+
+}
+.youTubeIframe .commentsPart .commentList .comment .contentOfCommment .authorName h3 span {
+
+}
+.youTubeIframe .commentsPart .commentList .comment .contentOfCommment p {
+
+}
+.youTubeIframe .commentsPart .commentList .comment .contentOfCommment .likeDislikeInComments {
+
+}
+.youTubeIframe .commentsPart .commentList .comment .contentOfCommment .likeDislikeInComments .likeDislike {
+    
+}
+.youTubeIframe .commentsPart .commentList .comment .contentOfCommment .likeDislikeInComments .likeDislike .Icone {
+    
+}
+.youTubeIframe .commentsPart .commentList .comment .contentOfCommment .likeDislikeInComments .likeDislike .Icone img{
+    
+}
+.youTubeIframe .commentsPart .commentList .comment .contentOfCommment .likeDislikeInComments .likeDislike .likeDislikeCounter {
+    
+}
+.youTubeIframe .commentsPart .commentList .comment .replyButton {
 
 }
