@@ -118,73 +118,104 @@
     cursor: pointer;
 }
 .youTubeIframe .commentsPart {
-
+    float: left;
+    width: 100%;
+    margin-top: 15px;
 }
 .youTubeIframe .commentsPart .counterSortButtons {
-    
+    float: left;
+    width: 100%;    
 }
 .youTubeIframe .commentsPart .counterSortButtons p {
-    
+    float: left;
+    margin-right: 15px;    
 }
 .youTubeIframe .commentsPart .counterSortButtons .sortingList {
-    
+    float: left;
+    cursor: pointer;    
 }
 .youTubeIframe .commentsPart .counterSortButtons .sortingList img {
-    
+    width: 24px;
 }
 .youTubeIframe .commentsPart .putComment {
-    
+    float: left;
+    width: 100%;    
 }
 .youTubeIframe .commentsPart .putComment .thumbnail {
-    
+    float: left;
 }
 .youTubeIframe .commentsPart .putComment .thumbnail img {
-    
+    width: 60px;
+    border-radius: 44px;    
 }
 .youTubeIframe .commentsPart .putComment input {
-    
+    border: none;
+    margin-left: 10px;
+    height: 60px;
+    width: 85%;
+    padding-left: 10px;    
 }
 .youTubeIframe .commentsPart .commentList {
-
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 120px;
 }
 .youTubeIframe .commentsPart .commentList .comment {
 
 }
 .youTubeIframe .commentsPart .commentList .comment .thumbnail {
-
+    float: left;
+    width: 10%;
 }
 .youTubeIframe .commentsPart .commentList .comment .thumbnail img {
 
+    width: 60px;
+    border-radius: 42px;
 }
 .youTubeIframe .commentsPart .commentList .comment .contentOfCommment{
-
+    float: left;
+    width: 90%;
 }
 .youTubeIframe .commentsPart .commentList .comment .contentOfCommment .authorName {
 
 }
 .youTubeIframe .commentsPart .commentList .comment .contentOfCommment .authorName h3 {
-
+    margin: 0;
+    margin-top: 19px;
+    font-size: 20px;
 }
 .youTubeIframe .commentsPart .commentList .comment .contentOfCommment .authorName h3 span {
-
+    font-size: 15px;
+    color: #b3b1b1;
+    font-weight: normal;
+    margin-left: 10px;
 }
 .youTubeIframe .commentsPart .commentList .comment .contentOfCommment p {
-
+    float: left;
+    width: 100%;
+    margin-top: 19px;
+    margin-bottom: 5px;
 }
 .youTubeIframe .commentsPart .commentList .comment .contentOfCommment .likeDislikeInComments {
-
+    float: left;
+    width: 100%;
 }
 .youTubeIframe .commentsPart .commentList .comment .contentOfCommment .likeDislikeInComments .likeDislike {
-    
+     float: left;
+    margin-right: 10px;   
 }
 .youTubeIframe .commentsPart .commentList .comment .contentOfCommment .likeDislikeInComments .likeDislike .Icone {
     
 }
 .youTubeIframe .commentsPart .commentList .comment .contentOfCommment .likeDislikeInComments .likeDislike .Icone img{
-    
+    width: 30px; 
 }
 .youTubeIframe .commentsPart .commentList .comment .contentOfCommment .likeDislikeInComments .likeDislike .likeDislikeCounter {
-    
+    margin-top: 4px;
+    float: right;
+    margin-left: 4px;
+    color: #969696;   
 }
 .youTubeIframe .commentsPart .commentList .comment .replyButton {
 
