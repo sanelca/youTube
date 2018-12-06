@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Youtube project</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="youTube/assets/css/bootstrap.min.css">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>        
@@ -15,44 +16,28 @@
 <body>
     <div class="wrapper">
         <div class="header">
-            <div class="row" style=" padding-top: 1%;">
+            <div class="row" style=" padding-top: 1%; padding-bottom: 1%;">
                 <div class="col-xs-1">
-                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-bars" style="font-size: 20px; color: #a0a0a0"></i>
                 </div>
                 <div class="col-xs-1">
-                    <img src="youTube/assets/images/youtub.png" class="img-responsive">
+                    <img src="youTube/assets/images/youtub.png" style="width: auto; height: 30px"  class="img-responsive ">
                 </div>
-                <div class="col-xs-6">
+                <div class=" col-xs-6">
                     <div class="row">
-                        <div class="col-xs-9"><input style="display: inline" type="search" class="form-control" placeholder="Search" id="search"></div>
-                        <div class="col-xs-3">
-                            <button style="width: 30%; background-color: #e0e0e0; display: inline" type="submit" class="btn btn-default">
-                                <i class="glyphicon glyphicon-search"></i>
+                        <div style="display: flex; flex-direction: row; width: 100%" class="col-xs-12">
+                            <div><input style="width: 600px; padding-top: 3%; padding-bottom: 3%; height: 26px" type="search" class="form-control" placeholder="Search" id="search"></div>
+                            <button style="border-radius: 0px; background-color: #e0e0e0; padding-top: 1%; padding-bottom: 1%; padding-right: 3%; padding-left: 3%" type="submit" class="btn btn-default" >
+                                <i class="fas fa-search"></i>
                             </button>
                         </div>
+
                     </div>
-                    <form class="" style="width: 70%; margin: 0; padding: 0;">
-                        <div class="form-group" style="display: inline;">
-                            <input style="display: inline" type="search" class="form-control" placeholder="Search" id="search">
-                            <button style="width: 30%; background-color: #e0e0e0; display: inline" type="submit" class="btn btn-default">
-                                <i class="glyphicon glyphicon-search"></i>
-                            </button>
-                        </div>
-
-
-                    </form>
                 </div>
-                <div class="col-xs-3">
-                    <button class="btn btn-md" style="padding: 7px; margin-right: 7px">
-                        <i class="fas fa-video"></i>
-                    </button>
-                    <button class="btn btn-md" style="padding: 7px; margin-right: 7px">
-                        <i class="fas fa-th"></i>
-                    </button>
-                    <button class="btn btn-md"  style="padding: 7px; margin-right: 7px">
-                        <i class="fas fa-bell"></i>
-                    </button>
-                </div>
+
+                <div class="col-xs-1"><i class="fas fa-video" style="font-size: 25px; color: #a0a0a0;"></i></div>
+                <div class="col-xs-1"><i class="fas fa-th" style="font-size: 25px; color: #a0a0a0; "></i></div>
+                <div class="col-xs-1"><i class="fas fa-bell" style="font-size: 25px; color: #a0a0a0; "></i></div>
                 <div class="col-xs-1">
                     <img src="https://via.placeholder.com/32x32?text=Visit+Blogging.com+Now" class="img-responsive img-circle">
                 </div>
@@ -67,7 +52,7 @@
                         </div>
                         <h3>3 Hours Best Music for Programming/Music for Coding/Music for Programmers to Increase Productivity</h3>
                         <div class="mainLikeDislikeButton">
-                            <div class="countViews">629 pregleda</div>
+                            <div class="countViews">629 views</div>
                             <div class="shareSaveButton">
                                 <img src="youTube/img/iconfinder_essential_set_list_1110966.png">
                                 <span>SAVE</span>
@@ -91,11 +76,11 @@
                         <div class="descriptionPart">
                             <div class="nameAndThumbnail">
                                 <div class="thumbNailsImage">
-                                    <img src="youTube/img/unnamed.jpg"/>
+                                    <span><img src="youTube/img/unnamed (1).jpg"/></span>
                                 </div>
                                 <div class="contentPartOfDescription">
                                     <p>Rare Product Reviews
-                                        <span>Datum objavljivanja: 1. stu 2018.</span>
+                                        <span>Date of publication: 1. stu 2018.</span>
                                     </p>
                                     <div class="subscribeButton">SUBSCRIBE 42 K</div>
                                     <div class="descriptionText">
@@ -135,14 +120,14 @@
                             </div>
                             <div class="putComment">
                                 <div class="thumbnail">
-                                    <img src="youTube/img/unnamed.jpg"/>
+                                    <span><img src="youTube/img/unnamed.jpg"/></span>
                                 </div>
                                 <input type="text" placeholder="Insert your comment"/>
                             </div>
                             <div class="commentList">
                                 <div class="comment">
                                     <div class="thumbnail">
-                                        <img src="youTube/img/unnamed.jpg"/>
+                                        <span><img src="youTube/img/unnamed.jpg"/><span>
                                     </div>
                                     <div class="contentOfCommment">
                                         <div class="authorName">
@@ -166,6 +151,84 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="comment">
+                                    <div class="thumbnail">
+                                        <span><img src="youTube/img/unnamed (2).jpg"/></span>
+                                    </div>
+                                    <div class="contentOfCommment">
+                                        <div class="authorName">
+                                            <h3>Gideon Buckwalter <span>prije 1 godinu</span></h3>
+                                        </div>
+                                        <p>Hey, this was really helpful and the example program was easy to follow. Thanks so much for uploading!</p>
+                                        <div class="likeDislikeInComments">
+                                            <div class="likeDislike">
+                                        <span class="Icone">
+                                            <img src="youTube/img/iconfinder_like-01_186399.png"/>
+                                        </span>
+                                                <span class="likeDislikeCounter">552</span>
+                                            </div>
+                                            <div class="likeDislike">
+                                        <span class="Icone">
+                                            <img src="youTube/img/iconfinder_dislike-01_186406.png"/>
+                                        </span>
+                                                <span class="likeDislikeCounter">14</span>
+                                            </div>
+                                            <div class="replyButton">REPLY</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="comment">
+                                    <div class="thumbnail">
+                                        <span><img src="youTube/img/9059b345-5013-47de-b42e-86f962e15884-original.jpeg"/></span>
+                                    </div>
+                                    <div class="contentOfCommment">
+                                        <div class="authorName">
+                                            <h3>Gideon Buckwalter <span>prije 1 godinu</span></h3>
+                                        </div>
+                                        <p>Hey, this was really helpful and the example program was easy to follow. Thanks so much for uploading!</p>
+                                        <div class="likeDislikeInComments">
+                                            <div class="likeDislike">
+                                        <span class="Icone">
+                                            <img src="youTube/img/iconfinder_like-01_186399.png"/>
+                                        </span>
+                                                <span class="likeDislikeCounter">552</span>
+                                            </div>
+                                            <div class="likeDislike">
+                                        <span class="Icone">
+                                            <img src="youTube/img/iconfinder_dislike-01_186406.png"/>
+                                        </span>
+                                                <span class="likeDislikeCounter">14</span>
+                                            </div>
+                                            <div class="replyButton">REPLY</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="comment">
+                                    <div class="thumbnail">
+                                        <span><img src="youTube/img/47318089_10216226490028759_4932012453253873664_n.jpg"/></span>
+                                    </div>
+                                    <div class="contentOfCommment">
+                                        <div class="authorName">
+                                            <h3>Gideon Buckwalter <span>prije 1 godinu</span></h3>
+                                        </div>
+                                        <p>Hey, this was really helpful and the example program was easy to follow. Thanks so much for uploading!</p>
+                                        <div class="likeDislikeInComments">
+                                            <div class="likeDislike">
+                                        <span class="Icone">
+                                            <img src="youTube/img/iconfinder_like-01_186399.png"/>
+                                        </span>
+                                                <span class="likeDislikeCounter">552</span>
+                                            </div>
+                                            <div class="likeDislike">
+                                        <span class="Icone">
+                                            <img src="youTube/img/iconfinder_dislike-01_186406.png"/>
+                                        </span>
+                                                <span class="likeDislikeCounter">14</span>
+                                            </div>
+                                            <div class="replyButton">REPLY</div>
+                                        </div>
+                                    </div>
+                                </div>                                                                                             
                             </div>
                         </div>
                     </div>
